@@ -1,0 +1,299 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// For style.scss
+
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    background: #fff;
+
+    border-bottom: 1px solid #BDBDBD;
+    top: 1px;
+    padding: 16px 96px 16px 96px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-family: Inter;
+}
+
+nav ul li a {
+    text-decoration: none;
+    // color: #333;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #0C4A6E;
+
+}
+.picture-section{
+    padding-right: 0px !important;
+    padding-left: 96px !important;
+}
+
+.pl-96{
+    padding-left: 96px !important
+}
+
+.pr-96{
+    padding-right: 96px !important
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background: #ffffff;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h1 {
+    font-size: 64px;
+    line-height: 77px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0EA5E9;
+    // background: #;
+
+}
+
+.hero-content .highlight {
+    color: #0EA5E9; /* Light Blue */
+}
+
+.hero-content p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0EA5E9; /* Light Blue */
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button-style{
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0EA5E9; /* Light Blue */
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.hero-image img {
+    max-height: 400px;
+}
+
+.about, .journey, .contact {
+    padding-top: 50px;
+    // padding-bottom: 50px;
+    text-align: center;
+}
+
+.about h2, .journey h2, .contact h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #0EA5E9; /* Light Blue */
+}
+
+.ph-indigo {
+    color : #0C4A6E;
+}
+
+.about p, .journey p, .contact p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about button, .journey button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0EA5E9; /* Light Blue */
+    border: none;
+    cursor: pointer;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 651px;
+    margin: 0 auto;
+    padding-bottom : 100px
+}
+
+.contact form label {
+    font-size: 16px;
+}
+
+.contact form input, .contact form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button{
+    border-radius: 8px;
+}
+
+.contact form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #0EA5E9; /* Light Blue */
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    // background: #333;
+    // color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.about p, .journey p, .contact p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.about button, .journey button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff; /* Light Blue */
+    border: none;
+    cursor: pointer;
+}
+
+.journey {
+    position: relative;
+}
+
+.journey-bg {
+    background: url('https://s3-alpha-sig.figma.com/img/7e49/7d60/ddb565accfec9a9b96a419572568e5a2?Expires=1723420800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=O4RKkWrK4db9y8GW1kbA9fqWGV53njXXLbUuoKChthjUvQ7SwFYjdb6wl9enKs88ThFpLywuwffkwUqrX5NpGCe93rtp98TxY6qab8ZJP7zhHNlVBuGQYX3ifdQLeqKBTJ~3aKlshpcIZ7mPSJUVXR8Hq6O4cdmcG~Rq4GArqPhSAIUCGRTu9QaODIejpYf0mavpN6zIbaNF4z3mK34HabjEZjH4R9xSXIqSrd8KsoKyUFu8YJR4pIJzTJt4OVZnqMKMfypIqjzs7kW7ZZkFsSP-icFJSQlQlDeCK8RjpZxMDFeoHgF8-uqtOglcQunrwTHriGolC-z-HLtWpZ4QCQ__') no-repeat center center;
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.journey-text {
+    text-align: center;
+    color: #fff;
+}
+
+.journey-text h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.enrollment {
+    text-align: left;
+    padding: 50px;
+    background: #fff;
+    padding-left: 130px;
+    padding-top: 16px;
+}
+
+.enrollment h2 {
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.enrollment p {
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.enrollment button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+// .hr-style{
+
+// }
+
+.color-navy {
+    color: #0C4A6E !important;
+}
+
+.here-to-help{
+
+    color: #939393;
+    // font-family: Lexend Deca;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22.5px;
+    text-align: center;
+    
+}
+
+.ph-grey{
+    color: #939393;
+}
